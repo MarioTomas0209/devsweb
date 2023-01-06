@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/spinner.css">
+  
+  <title>devsweb</title>
+
+</head>
+<body>
+  <header class="header">
+
+    <div class="header__contenido">
+
+      <div class="logo contenedor">
+
+        <h1><span class="c-rojo">Devs</span><span class="c-azul">Web</span></h1>
+
+        <div class="hamburger">
+            <a href="#" class="toggle">
+              <img src="images/icon-hamburger.svg" alt="Hola">
+            </a>
+        </div>
+
+        <nav class="header__nav">
+          <ul>
+            <li><a class="header__nav--link" href="#">Quienes somos</a></li> 
+          </ul>
+        </nav>
+
+      </div>
+
+      <div class="centrar-header contenedor">
+        <div class="header__soy">
+          <h2>HACEMOS TU CHAMBA POR TI</h2>
+        </div>
+
+        <div class="button mt-10">
+          <nav>
+            <a href="#">Contactanos</a>
+          </nav>
+        </div>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="presentacion">
+
+    <div class="presentacion-titulo">
+      <h2>Hazme hacer cosas para ti</h2>
+      <p>Realizamos cualquier tipo de proyectos en programación, si necesitas
+        ayuda no dudes en contactarnos.</p>
+    </div>
+
+    <section class="creacion contenedor">
+  
+      <div class="creacion-caja">
+
+        <div class="cajas">
+          <h3>Diseño Web</h3>
+          <img src="images/icons8-múltiples-dispositivos-94.png" alt="que onda">
+          <p class="creacion-titulo">Creamos páginas web</p>
+        </div>
+        <div class="cajas">
+          <h3>Proyectos</h3>
+          <img src="images/icons8-carpeta-94.png" alt="que onda">
+          <p class="creacion-titulo">Te ayudamos en tus proyectos de programación</p>
+        </div>
+        <div class="cajas">
+          <h3>Base de Datos</h3>
+          <img src="images/icons8-ssd-94.png" alt="que onda">
+          <p class="creacion-titulo">Diseñamos base de datos para tu proyecto</p>
+        </div>
+  
+      </div>
+  
+    </section>
+
+  </main>
+
+  <section class="contacto contenedor">
+
+    <form id="enviar-email" class="formulario">
+
+      <fieldset>
+        <legend>Escríbenos!!!</legend>
+  
+        <div class="contenedor-campo">
+  
+          <div class="campo">
+            <label>Nombre</label>
+            <input class="input-text" type="text" id="nombre">
+          </div>
+          <div class="campo">
+            <label>Teléfono</label>
+            <input class="input-text" type="tel" id="telefono">
+          </div>
+          <div class="campo">
+            <label>E-mail</label>
+            <input class="input-text" type="email" id="email">
+          </div>
+          <div class="campo">
+            <label>Mensaje</label>
+            <textarea class="input-text" cols="30" rows="10" id="mensaje"></textarea>
+          </div>
+  
+        </div>
+        <div class="alinear-derecha flex">
+          <input disabled class="opaco cursor-cancel button-azul btn-enviar" type="submit" value="Enviar" id="enviar">
+
+          <input class="cursor button-rojo c-rojo btn-enviar" type="submit" value="Limpiar" id="limpiar">
+        </div>
+  
+      </fieldset>
+
+      <div class="sk-chase hidden spinner" id="bolita">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+      </div>
+  
+    </form>
+
+    
+
+  </section>
+
+  <footer class="footer">
+    <div class="contenedor footer-flex">
+
+      <div class="footer-logo">
+        <h1><span class="c-rojo">Devs</span><span class="c-azul">Web</span></h1>
+      </div>
+
+      <div class="redes">
+        <div class="footer-redes">
+          <img src="images/icon-facebook.svg" alt="">
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="js/index.js"></script>
+
+</body>
+</html>
